@@ -3,5 +3,6 @@ export interface ArticoloTech {
   nome: string;
   prezzo: number;
   descrizione: string;
+  descrizioneTotale: string;
   immagine: string;
 }

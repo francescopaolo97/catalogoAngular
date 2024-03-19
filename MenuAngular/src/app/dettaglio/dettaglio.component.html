@@ -1,1 +1,19 @@
-<p>dettaglio works!</p>
+<div class="c-art">
+  <div class="card" style="width: 100%">
+    <img src="{{ articolo.immagine }}" class="card-img-top" />
+    <div class="card-body">
+      <h5 class="card-title">
+        {{ articolo.nome }} {{ articolo.prezzo }}&euro;
+      </h5>
+      <p class="card-text">{{ articolo.descrizione }}</p>
+    </div>
+  </div>
+  <div class="caratteristiche">
+    <div>
+      <h3 class="testo">Specifiche del prodotto</h3>
+    </div>
+    <div class="desc">
+      {{ articolo.descrizioneTotale }}
+    </div>
+  </div>
+</div>

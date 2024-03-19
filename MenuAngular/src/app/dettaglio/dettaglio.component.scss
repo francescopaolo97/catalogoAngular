@@ -1,0 +1,17 @@
+.c-art {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  gap: 100px;
+  margin: 5% 20%;
+}
+.desc {
+  width: 80%;
+  box-shadow: 10px 10px 10px 10px;
+  padding: 10px;
+  border-radius: 15px;
+}
+.testo {
+  text-shadow: 10px 0px 10px cornflowerblue, 10px 0px 5px;
+}
