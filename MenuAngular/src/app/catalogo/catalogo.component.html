@@ -1,0 +1,18 @@
+<div class="container" *ngIf="listaArticoliTech">
+  <div class="row">
+    <div
+      *ngFor="let a of listaArticoliTech"
+      class="card col-3 m-3"
+      style="width: 18rem"
+    >
+      <img src="{{ a.immagine }}" class="card-img-top" />
+      <div class="card-body">
+        <h5 class="card-title">{{ a.nome }} {{ a.prezzo }}</h5>
+        <p class="card-text">{{ a.descrizione }}</p>
+        <button class="btn btn-primary" (click)="vaiAlDettaglio(a.id)">
+          Visualizza dettaglio
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
